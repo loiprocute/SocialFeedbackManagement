@@ -4,7 +4,7 @@ import pyodbc
 
 conn = pyodbc.connect('Driver={SQL Server};'
                       'Server=DESKTOP-O7T6R5H;'
-                      'Database=feedback_store;'
+                      'Database=feedback_data;'
                       'Trusted_Connection=yes;')
 
 cursor = conn.cursor()
